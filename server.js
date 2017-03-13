@@ -4,7 +4,10 @@ var express = require('express'),
       console.log("@localhost:4000");
     }),
     router = require('./routes/index');
+var path = require('path');
 
 app.set('view engine','ejs');
-app.use(express.static('public'));
+app.use(express.static('/public'));
+app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static(path.join(__dirname, '/public/app')));
 app.use('/',router);
