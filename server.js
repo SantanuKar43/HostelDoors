@@ -7,7 +7,7 @@ var express = require('express'),
 var path = require('path');
 
 app.set('view engine','ejs');
-app.use(express.static('/public'));
-app.use(express.static(path.join(__dirname, '/public')));
-app.use(express.static(path.join(__dirname, '/public/app')));
+app.use(express.static('public'));
+// app.use(express.static(path.join(__dirname, '/public')));
+// app.use(express.static(path.join(__dirname, '/public/app')));
 app.use('/',router);
