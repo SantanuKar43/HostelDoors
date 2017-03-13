@@ -1,0 +1,28 @@
+{
+  "name": "hostel_doors",
+  "version": "1.0.0",
+  "description": "App to find students residing in CET hostels",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantanuKar43/HostelDoors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantanuKar43/HostelDoors/issues"
+  },
+  "homepage": "https://github.com/SantanuKar43/HostelDoors#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.24",
+    "mongoose": "^4.8.7",
+    "nodemon": "^1.11.0",
+    "papaparse": "^4.1.4"
+  }
+}
