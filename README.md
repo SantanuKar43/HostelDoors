@@ -12,5 +12,9 @@ git clone https://github.com/SantanuKar43/HostelDoors
 cd HostelDoors
 # Install dependencies
 npm install
+cd public
+# Install dependencies
+npm install
+bower install
 # Run the app
 npm start
