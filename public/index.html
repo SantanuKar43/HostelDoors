@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"> lets use materialize only-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.min.css">
+  <!-- endbuild -->
+</head>
+
+<body ng-app="hostelDoorsApp">
+  <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <div class="row">
+    <div class="col s12 m12 l12 center-align">
+      <h1>Welcome to HostelDoor </h1>
+    </div>
+    <div class="center row">
+      <div class="col s10 m7 l8 center-align offset-m2 offset-l2 ">
+        <div class="row" id="topbarsearch">
+          <div class="input-field col s6 s12 red-text">
+            <i class="red-text material-icons prefix">search</i>
+            <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete red-text">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+  <script3
+    ! function(A, n, g, u, l, a, r) {
+      A.GoogleAnalyticsObject = l, A[l] = A[l] || function() {
+          (A[l].q = A[l].q || []).push(arguments)
+        }, A[l].l = +new Date, a = n.createElement(g),
+        r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+    }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- build:js(.) scripts/vendor.js -->
+  <!-- bower:js -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js({.tmp,app}) scripts/scripts.js -->
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../bower_components/angular-animate/angular-animate.js"></script>
+  <script src="../bower_components/angular-aria/angular-aria.js"></script>
+  <script src="../bower_components/angular-route/angular-route.js"></script>
+  <script src="../bower_components/angular-cookies/angular-cookies.js"></script>
+  <script src="../bower_components/angular-messages/angular-messages.js"></script>
+  <script src="../bower_components/angular-mocks/angular-mocks.js"></script>
+  <script src="../bower_components/angular-resource/angular-resource.js"></script>
+  <script src="../bower_components/angular-mocks/angular-mocks.js"></script>
+  <script src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+  <script src="../bower_components/angular-touch/angular-touch.js"></script>
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/materialize/dist/js/materialize.min.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/controllers/main.js"></script>
+  <script src="scripts/controllers/about.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>
