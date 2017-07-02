@@ -8,18 +8,24 @@ var express = require('express'),
     fs = require('fs'),
     bodyParser = require('body-parser'),
     papa = require('papaparse'),
-    mongoclient = require("mongodb").MongoClient;
+    //mongoclient = require("mongodb").MongoClient,
+    mongoose = require('mongoose');
 
-mongoclient.connect("mongodb://localhost:27017/hostels",function(err,db){
-  if(err) return console.log(err);
-  global.db = db
+mongoose.connect("mongodb://localhost:27017/hostels");
+  var db = mongoose.connection
+  db.on('error', console.error.bind(console, 'connection error:'))
+  db.once('open', function () {
+      console.log("connection established to db");
+    });
+
+  //global.db = db
   db.collection('residents').drop();
   fs.readFile(__dirname+"/csv.csv",function(err,data){
     var csvString = data.toString();
     var results = papa.parse(csvString,{header:true}).data;
-    results.forEach(data=>{db.collection('residents').save(data); console.log(data);})
+    console.log( results.length ,"Number of data saved");
+    results.forEach(data=>{db.collection('residents').save(data);})
   });
-});
 
 app.set('view engine','ejs');
 app.use(express.static('public'));
