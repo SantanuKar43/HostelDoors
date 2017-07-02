@@ -21,6 +21,9 @@ node_modules/
 *.tar
 *.zip
 
+# csv
+*.csv
+
 # Logs and databases #
 ######################
 *.log
