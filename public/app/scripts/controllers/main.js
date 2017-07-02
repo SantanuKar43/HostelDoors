@@ -16,19 +16,18 @@ angular.module('hostelDoorsApp')
     ];
   });
 
-
-
-  $(document).ready(function(){
-      $('input.autocomplete').autocomplete({
-      data: {
-          "Lalu": null,
-          "Shantanu": null,
-          "Sanskriti": null,
-          "Teju":null,
-          "Nibedita": null,
-          "Prapti": null,
-          "Gursheen": null,
-          "Priya":null
-      }
-      });
-      });
+    $(document).ready(function(){
+        $('input.autocomplete').autocomplete({
+        data: {
+            "Lalu": null,
+            "Shantanu": null,
+            "Sanskriti": null,
+            "Teju":null,
+            "Nibedita": null,
+            "Prapti": null,
+            "Gursheen": null,
+            "Priya":null
+        }
+        });
+        });
+  
