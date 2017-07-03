@@ -8,26 +8,7 @@
  * Controller of the hostelDoorsApp
  */
 angular.module('hostelDoorsApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('MainCtrl', function ($scope) {
 
-    $(document).ready(function(){
-        $('input.autocomplete').autocomplete({
-        data: {
-            "Lalu": null,
-            "Shantanu": null,
-            "Sanskriti": null,
-            "Teju":null,
-            "Nibedita": null,
-            "Prapti": null,
-            "Gursheen": null,
-            "Priya":null
-        }
-        });
-        });
-  
+
+  });

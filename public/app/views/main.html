@@ -22,7 +22,7 @@
   <p>Spectacular Test Runner for JavaScript.</p>
 </div> -->
 
-<div class="row">
+<div class="row" ng-controller="MainCtrl">
   <div class="col s12 m12 l12 center-align">
     <h1>Welcome to HostelDoor </h1>
   </div>
@@ -31,7 +31,8 @@
       <div class="row" id="topbarsearch">
         <div class="input-field col s6 s12 red-text">
           <i class="red-text material-icons prefix">search</i>
-          <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete red-text">
+          <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete red-text" auto-complete/>
+
         </div>
       </div>
     </div>
