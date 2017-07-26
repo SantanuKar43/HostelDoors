@@ -10,6 +10,9 @@
 angular.module('hostelDoorsApp')
   .controller('MainCtrl', function ($scope) {
 
+            $(".button-collapse").sideNav();
+
+
            $scope.residents= [
      {name: 'Lalu Prasad Lenka', Room: '406'},
      {name: 'Sinchan Kumar Mishra', Room: '306'},
@@ -20,7 +23,7 @@ angular.module('hostelDoorsApp')
      {name: 'Tejaswini Behera', Room: '105'},
      {name: 'Nibedita Jena', Room: '105'},
      {name: 'Sanskriti Kar', Room: '104'},
-     {name: 'Praptti Panigrahi', Room: '103'},
+     {name: 'Prapti Panigrahi', Room: '103'},
      {name: 'Sanjay Reddy', Room: '421'},
      {name: 'Aswini Padhi', Room: '421'}
      ]

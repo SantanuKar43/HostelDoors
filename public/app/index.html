@@ -27,7 +27,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="header">
+    <!-- <div class="header">
       <div class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
@@ -52,7 +52,24 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+    <nav>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">Hostel Doors</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+             <li class="active"><a href="#!/">Home</a></li>
+             <li><a ng-href="#!/about">About</a></li>
+             <li><a ng-href="#!/contact">Contact</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+             <li class="active"><a href="#!/">Home</a></li>
+             <li><a ng-href="#!/about">About</a></li>
+             <li><a ng-href="#!/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
 
     <div class="container">
     <div ng-view=""></div>

@@ -27,20 +27,19 @@
     <h1>Welcome to HostelDoor </h1>
   </div>
   <div class="center row">
-    <div class="col s10 m7 l8 center-align offset-m2 offset-l2 ">
+    <div class="col s10 m7 l8 center-align offset-m2  offset-s1 offset-l2 ">
       <div class="row" id="topbarsearch">
         <div class="input-field col s6 s12">
           <div class="padded-row">
          <label><i class="red-text material-icons">search</i></label>
-            <div angucomplete-alt id="ex4" placeholder="Search Your Friend" pause="100" selected-object="selectedCountry4" local-data="residents" search-fields="name" title-field="name" minlength="1" input-class="form-control form-control-small" match-class="highlight" override-suggestions="true">
+            <div angucomplete-alt id="ex4" placeholder="Search Your Friend" pause="100" selected-object="selectedresident" local-data="residents" search-fields="name" title-field="name" minlength="1" input-class="form-control form-control-small" match-class="highlight" override-suggestions="true">
             </div>
           </div>
           <div class="result">
-            <div class="" ng-show="selectedCountry4">
-              You selected <span class="bold-span">{{selectedCountry4.originalObject}}</span>
+            <div class="" ng-show="selectedresident">
+              You selected <span class="bold-span">{{selectedresident.originalObject}}</span>
             </div>
           </div>
-
         </div>
       </div>
     </div>
