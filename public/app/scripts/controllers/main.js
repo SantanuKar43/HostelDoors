@@ -10,27 +10,19 @@
 angular.module('hostelDoorsApp')
   .controller('MainCtrl', function ($scope) {
 
-           $scope.countries = [
-     {name: 'Afghanistan', code: 'AF'},
-     {name: 'Aland Islands', code: 'AX'},
-     {name: 'Albania', code: 'AL'},
-     {name: 'Algeria', code: 'DZ'},
-     {name: 'American Samoa', code: 'AS'},
-     {name: 'AndorrA', code: 'AD'},
-     {name: 'Angola', code: 'AO'},
-     {name: 'Anguilla', code: 'AI'},
-     {name: 'Antarctica', code: 'AQ'},
-     {name: 'Antigua and Barbuda', code: 'AG'},
-     {name: 'Argentina', code: 'AR'},
-     {name: 'Armenia', code: 'AM'},
-     {name: 'Aruba', code: 'AW'},
-     {name: 'Australia', code: 'AU'},
-     {name: 'Austria', code: 'AT'},
-     {name: 'Azerbaijan', code: 'AZ'},
-     {name: 'Bahamas', code: 'BS'},
-     {name: 'Bahrain', code: 'BH'},
-     {name: 'Bangladesh', code: 'BD'},
-     {name: 'Barbados', code: 'BB'}
+           $scope.residents= [
+     {name: 'Lalu Prasad Lenka', Room: '406'},
+     {name: 'Sinchan Kumar Mishra', Room: '306'},
+     {name: 'Rishav Agarwal', Room: '439'},
+     {name: 'Sanskriti Mohapatra', Room: '106'},
+     {name: 'Nibedita Behera', Room: '102'},
+     {name: 'Tejaswini Jena', Room: '106'},
+     {name: 'Tejaswini Behera', Room: '105'},
+     {name: 'Nibedita Jena', Room: '105'},
+     {name: 'Sanskriti Kar', Room: '104'},
+     {name: 'Praptti Panigrahi', Room: '103'},
+     {name: 'Sanjay Reddy', Room: '421'},
+     {name: 'Aswini Padhi', Room: '421'}
      ]
 
   });
