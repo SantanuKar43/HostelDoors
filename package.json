@@ -24,7 +24,7 @@
     "generator-angular": "^0.16.0",
     "generator-karma": "^2.0.0",
     "graceful-fs": "^4.1.11",
-    "mongodb": "^2.2.24",
+    "mongodb": "^3.6.1",
     "mongoose": "^4.11.0",
     "nodemon": "^1.11.0",
     "papaparse": "^4.1.4"
