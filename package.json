@@ -27,6 +27,6 @@
     "mongodb": "^2.2.24",
     "mongoose": "^4.11.0",
     "nodemon": "^1.11.0",
-    "papaparse": "^4.1.4"
+    "papaparse": "^5.3.0"
   }
 }
